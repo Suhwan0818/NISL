@@ -1,10 +1,10 @@
 import React from "react";
-import DisplayComponent from "./components/DisplayComponent";
+import TopNavComponent from "./components/TopNavComponent";
 
 const App = () => {
   return (
     <div className="app">
-      <DisplayComponent />
+      <TopNavComponent />
     </div>
   );
 };
