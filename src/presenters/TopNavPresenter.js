@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const TopNavPresenter = styled.div`
   width: 100vw;
-  height: 20px;
+  height: 37px;
   background-color: #1d41f0;
   margin: 0 auto;
 `;

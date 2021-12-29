@@ -1,12 +1,14 @@
 import React from "react";
-import TopNavComponent from "./components/TopNavComponent";
+import DisplayComponent from "./components/DisplayComponent";
 
-const App = () => {
+function App() {
   return (
-    <div className="app">
-      <TopNavComponent />
-    </div>
+    <>
+      <div className="app">
+        <DisplayComponent></DisplayComponent>
+      </div>
+    </>
   );
-};
+}
 
 export default App;
