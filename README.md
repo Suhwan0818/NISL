@@ -1,73 +1,23 @@
-## Simple Electron React Boilerplate
+## Install
 
-### Install
-
-#### Clone this repo
-
-```
-git clone https://github.com/Suhwan0818/NISL.git
-```
-
-#### Install dependencies
-
-```
+```bash
 npm install
 ```
-
-or
-
+```bash
+npm install styled-components @types/styled-components styled-normalize
 ```
-yarn
+```bash
+npm i react react-dom
 ```
-
-### Usage
-
-#### Run the app
-
+```bash
+npm install react-bootstrap bootstrap@5.1.3
 ```
-npm run start
+```bash
+npm install react-modal
 ```
 
-or
+## Start the app in the `dev` environment:
 
+```bash
+npm start
 ```
-yarn start
-```
-
-#### Build the app (automatic)
-
-```
-npm run package
-```
-
-or
-
-```
-yarn package
-```
-
-#### Build the app (manual)
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-#### Test the app (after `npm run build` || `yarn run build`)
-
-```
-npm run prod
-```
-
-```
-yarn prod
-```
-
-### Change app title
-
-Change the app title in the **webpack.build.config.js** and the **webpack.dev.config.js** files
